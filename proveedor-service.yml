@@ -12,5 +12,5 @@ jpa:
   ddl-auto: update
   database-platform: org.hibernate.dialect.MySQLDialect
 cloud:
- confi:
+ config:
   uri: http://localhost:8860
