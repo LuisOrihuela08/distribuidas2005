@@ -1,5 +1,10 @@
 server:
   port: ${PORT:8863}
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8850/eureka/
 message: Configuracion de cajero en el servidor levantado!
 spring:
   datasource:
@@ -14,9 +19,4 @@ spring:
   cloud:
     config:
       uri: http://localhost.8860
-eureka:
-  client:
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8850/eureka/
 
