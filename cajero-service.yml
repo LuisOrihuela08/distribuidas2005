@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     register-with-eureka: true
-    serviceUrl:
+    serviceurl:
       defaultZone: http://localhost:8850/eureka/
 message: Configuracion de cajero en el servidor levantado!
 spring:
